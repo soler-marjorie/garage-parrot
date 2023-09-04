@@ -37,13 +37,13 @@
     <!-- feuille de style css -->
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <title>Garage V. Parrot</title>
+    <title>Garage V. Parrot <?= $menuItem["title"];?></title>
 </head>
 <body>
 
-<header>
-    <div class="container">
-        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+
+<div class="container">
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
         <div class="col-md-3 mb-2 mb-md-0">
             <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
                 <img src="assets/img/Logo.png" alt="Logo">
@@ -60,6 +60,5 @@
             <button type="button" class="btn btn-outline-primary me-2">S'inscrire</button>
             <button type="button" class="btn btn-primary">Se connecter</button>
         </div>
-        </header>
-    </div>
-</header>
+    </header>
+</div>

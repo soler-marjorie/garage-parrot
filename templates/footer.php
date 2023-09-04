@@ -1,9 +1,15 @@
 <div class="container">
     <footer class="d-flex align-items-center py-3 my-4 border-top">
-        <div class="col-md-4">
+        <div class="col-md-4 horaires">
             <h3>Nos horaires</h3>
-            <p>du lundi au vendredi</p>
-            <p>le samedi</p>
+
+            
+                <p>du lundi au vendredi</p>
+           
+
+            
+                <p>le samedi</p>
+            
         </div>
         
 
